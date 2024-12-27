@@ -1,0 +1,75 @@
+:Podstawowe informacje
+
+-Git - system kontroli wersji
+
+-Etapy
+1 Working Directory
+To miejsce, gdzie tworzysz, edytujesz i usuwasz pliki. Jest to obszar na Twoim komputerze, w którym codziennie pracujesz nad kodem. Zmiany w plikach w katalogu roboczym nie są jeszcze monitorowane przez Git, dopóki ich nie dodasz do Staging Area.
+
+2 Staging Area
+Staging Area (Obszar Indeksowania)
+Staging Area to przestrzeń, gdzie przechowywane są zmiany, które chcesz przygotować do zatwierdzenia (commit). Kiedy wykonujesz komendę git add, wskazane pliki są dodawane do Staging Area. To taki "bufor", który pozwala Ci przygotować dokładnie to, co chcesz zatwierdzić w następnym kroku.
+
+3 Git Repository - miejsce gdzie trafiają comity
+To miejsce, gdzie trafiają commity po ich wykonaniu. Repozytorium Git zawiera pełną historię zatwierdzeń (commitów), gałęzi (branches) i tagów. Wszystkie dane są tu przechowywane w sposób zoptymalizowany i pozwalający na łatwe przywracanie wcześniejszych wersji kodu.
+
+-Komendy
+
+git clone tu_link_z_gita
+git status  pokazuje nam stan naszego repozytorium naszego aktualnego, pokazuje nam co zostało dodane do comita, pokazuje jakie pliki są w folderze roboczym, które pliki zostały zmienione ale nie zatwierdzone
+git log wyświetlenie histori commitów na aktualnym branchu
+git branch  wyswietelnie aktualnej galezi i innych
+
+echo "filip" wydrukowanie tekstu na panelu
+echo "filip" >> zapissanie tekstu do pliku
+mkdir utworzenie foldera
+touch utworzenia pliku
+ls - wyśietlenie plików
+pwd wyświetlenie dokąłdnej ścieżki
+rm usuniecie pliku
+rm -r usuniecie folderu
+mv plik.txt   /c/Users/Lipeq/Git_Lipeqo/Lipeqo przesuniecie pliku do konkretnego folderu
+mv stara_nazwa nowa_nazwa  zmiana nazwy
+cp plik.txt kopia_pliku.txt   kopiowanie pliku
+cd ..   wyjscie o jeden folder wyżej
+cd ../.. wyjscie o dwa foldery w góre
+>.  przekierowuje wyjscie do pliku nadpisuje plik jesli istnije, ;ub tworzy jesli go niema
+>> przekierowuje wyjscie do pliku dodająć dane na końcu jesli plik istnieje lub go tworzac jesli go niema
+date > plik.txt dodanie daty do pliku
+
+git add dodanie tylko wybranych plików do commita , trzeba dodac wszystkie usuniete zmodyfikowane i nowe pliki
+git commit -m "komentarz" zatwierdzenie zmian i commit
+git push wypycha nasze lokalne repozytorium do zdalnego repozytorium
+
+
+git checkout -b jakaś_gałąź tworzy nowa gałąź
+git checkout jakaś_gałąź przeloczenie sie na inna gałaz 
+git checkout - wrócenie na poprzednią gałąź
+git  checkout plik.txt cofa zmiany w pliku do ostatniego commita który został wykonany w twoim lokalny repozytorium
+git reset --hard - cofnie nam wszystko co zrobiliśmy
+git push --set-upstream origin new_master wypchanie drugiej gałęzi
+
+git add -- all dodaje zmodyfikowane pliki, nowe pliki, śledzi usuniete pliki
+git commit - am dodaje wszystkie zmodyfikowane pliki i usuniete ale nie dodaje nowych które zostały stworzone
+vi edytacja pliku (edytowane)
+
+git fetch - tylko pobiera zmiany bez ich scalanialnym, recznie przydzielam co jest dobre
+git pull - automatycznie scala pobrane zmiany z Twoją lokalną gałęzią, podczas, automatycznie przydziela ale czasem może to prowadzić do konfliktow
+
+Working Directory - folder w który są nasze wszystkie pliki robocze
+Staging Area - miejsce gdzie są dane pliki które chcemy commitować
+Git Repository - zdalny server gdzie znajdują się nasze wszystkie wychane pliki
+
+Remote zdalne repo 
+
+$ git init  $ git config --global user.email
+git --version
+Rozproszony system wersji bo na każde repo jest kopiowana historia wszystkich commitow
+
+git log - historia commitow
+
+git config --global user.name "Nowa Nazwa Użytkownika"
+
+git config user.email "nowy_email@example.com"
+
+klawisz q do wyjscia z git log 

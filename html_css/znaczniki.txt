@@ -1,0 +1,123 @@
+Podstawowe znaczniki HTML:
+<!doctype html>
+Informacja dla przeglądarki, że otwierany plik jest w formacie HTML w wersji 5.
+
+<html lang="pl"></html>
+Oznacza początek i koniec pliku HTML.
+
+<head></head>
+Sekcja głowy pliku, zawiera metadane strony.
+
+<body></body>
+Sekcja ciała pliku, zawiera główną treść strony.
+
+
+Meta tagi:
+<meta charset="utf-8"/>
+Określenie zestawu znaków (np. polskie znaki: ą, ę).
+
+<meta name="description" content="Przed tobą strona o filmach"/>
+Opis strony, który widzimy w wynikach wyszukiwania.
+
+<meta name="keywords" content="film, kino"/>
+Słowa kluczowe, po których strona będzie wyszukiwana.
+
+<meta name="author" content="Filip Szatkowski"/>
+Informacja o autorze strony.
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+Ustawienia dla przeglądarek (np. starszych wersji Internet Explorera).
+
+
+Tytuł strony:
+<title>Moja strona gotowa</title>
+Tytuł strony wyświetlany w karcie przeglądarki.
+Nagłówki
+<h1>ddd</h1>
+Nagłówki od <h1> do <h6> (h1 – największy, h6 – najmniejszy).
+
+<h1 style="color:red;">ddd</h1>
+Wstawienie stylu CSS bezpośrednio w znaczniku HTML.
+
+
+Stylizacja i CSS:
+<style></style>
+Sekcja do umieszczania stylów CSS w pliku HTML.
+
+<link rel="stylesheet" href="Moja strona gotowa.css" type="text/css" />
+Łączenie pliku CSS z HTML:
+
+rel="stylesheet" – Określa, że jest to arkusz stylów.
+type="text/css" – Typ pliku (tekstowy, CSS).
+href="Moja strona gotowa.css" – Ścieżka do pliku CSS (domyślnie w tym samym folderze).
+Znaczniki tekstu
+<p>tekst</p>
+Tworzy akapit tekstu, zaczyna od nowej linii.
+
+<span>tekst</span>
+Grupuje tekst, pozostając w tej samej linii.
+
+
+Stylizacja tekstu:
+<b>tekst</b>
+Pogrubienie tekstu.
+
+<strong>tekst</strong>
+Pogrubienie tekstu (semantycznie ważniejsze).
+
+<i>tekst</i>
+Pochylenie tekstu.
+
+<em>tekst</em>
+Pochylenie tekstu (semantycznie ważniejsze).
+
+<u>tekst</u>
+Podkreślenie tekstu.
+
+<sup>2</sup>
+robi index górny
+
+
+Pozostałe znaczniki:
+<br/>
+Tworzy nową linię.
+
+<hr>
+Tworzy poziomą linię.
+
+*{}
+Zastosowanie stylów do wszystkich elementów (globalne style).
+
+
+Semantyczne znaczniki HTML:
+<header>
+Nagłówek strony lub sekcji. Zawiera elementy takie jak logo, tytuł strony, czy menu nawigacyjne.
+
+<nav>
+Sekcja nawigacyjna, zwykle zawiera odnośniki do innych części strony.
+
+<main>
+Główna treść strony. Może występować tylko raz w dokumencie HTML i musi znajdować się wewnątrz znacznika <body>.
+
+<section>
+Sekcja tematyczna, używana do dzielenia zawartości na logiczne części. Na przykład, w <article> można użyć wielu <section> do podzielenia tekstu na mniejsze części.
+
+<article>
+Samodzielna jednostka treści, np. artykuł, wpis na blogu, komentarz.
+
+<aside>
+Dodatkowa treść, zwykle używana na bocznych paskach (np. linki, reklamy), niezwiązana bezpośrednio z główną treścią.
+
+<footer>
+Stopka strony lub sekcji. Może zawierać informacje takie jak prawa autorskie, linki do polityki prywatności, czy dane kontaktowe.
+
+:Zdjęcie
+
+<img src="img/forest.jpg" alt="Morskie oko"/> - zdj w katalogu img
+alt - tekst alternatywny jak sie nie wczyta zdj
+
+<figure><img src="img/forest.jpg" alt="Morskie oko"/><figcaption>pod pis pod zdj</figcaption></figure>
+
+<a><img src="img/forest.jpg" alt="Morskie oko"/></a> - zrobienie z zdj linku
+
+

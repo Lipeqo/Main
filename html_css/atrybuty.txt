@@ -1,0 +1,97 @@
+Formatowanie tekstu:
+
+text-align
+left – Wyrównane do lewej.
+right – Wyrównane do prawej.
+center – Wyśrodkowane.
+justify – Tekst wyrównany do obu krawędzi elementu; spacje między słowami są zwiększone.
+start – Wyrównanie na podstawie kierunku tekstu.
+end – Wyrównanie na końcu na podstawie kierunku tekstu.
+
+color: white; – biały tekst.
+font-size – Rozmiar czcionki.
+font-weight – Grubość czcionki (np. bold – pogrubienie).
+font-style – Styl czcionki (np. italic – kursywa).
+letter-spacing – Odstęp między literami.
+line-height – Odstęp między liniami tekstu.
+text-decoration:none – brak podkreślenia.
+text-transform:uppercase – zmiana na wielkie litery.
+
+Wymiary elementu:
+
+width – Szerokość ustawiona na sztywno.
+min-width – Minimalna szerokość.
+height – Wysokość ustawiona na sztywno.
+min-height – Minimalna wysokość.
+
+Marginesy zewnętrzne (margin):
+
+margin – Ustawienie marginesu dla wszystkich stron.
+margin-top – Górny margines. Przykład: 20px;
+margin-right – Prawy margines. Przykład: 10px;
+margin-bottom – Dolny margines. Przykład: 30px;
+margin-left – Lewy margines. Przykład: 15px;
+
+Marginesy wewnętrzne (padding):
+
+padding – Margines wewnętrzny od treści.
+padding-top – Górny margines wewnętrzny. Przykład: 20px;
+padding-right – Prawy margines wewnętrzny. Przykład: 10px;
+padding-bottom – Dolny margines wewnętrzny. Przykład: 30px;
+padding-left – Lewy margines wewnętrzny. Przykład: 15px;
+
+Ramka (border):
+
+border – Pełna definicja ramki.
+border-top – Górna ramka. Przykład: 3px solid blue;
+border-right – Prawa ramka. Przykład: 2px dashed green;
+border-bottom – Dolna ramka. Przykład: 5px dotted yellow;
+border-left – Lewa ramka. Przykład: 1px solid black;
+border-radius – Zaokrąglenie rogów ramki.
+
+:Tło
+
+Ustawuinie na sztywno wysokości i szerokości zdj
+ width: auto;
+ height: auto;
+
+background-color: aliceblue; - kolor tła
+background-image: url(img/ryba.png)
+background-repeat: no-repeat; - zeby zdj sie nei powtarzalo
+background-repeat:repeat-x;
+background-repeat:repeat-y;
+background-size: cover; że ma pokryc calego rodzica
+background-size: contain; że ma pokryc do zawartosci
+background-attachment: fixed; - ustawienie ze tlo jest przyklejone , rusza sie tylk ozawartosc
+
+:Divy
+float: left; - levy div przyczepia prawego do sievie
+clear: both - czyszczenie ustawien na divach
+overflow: hidden;
+
+
+Inne:
+
+display: inline-block; Zajmuje tylko tyle miejsca, ile potrzebuje
+Zachowuje się jak element liniowy, co oznacza, że inne elementy mogą pojawiać się obok niego w jednej linii, jeśli jest na to miejsce.
+Nie zaczyna nowej linii
+
+display: block;Przekształca element w blokowy, co oznacza:
+Element zajmuje całą dostępną szerokość swojego kontenera.
+Każdy kolejny element zaczyna się od nowej linii.
+
+opacity: 0.8; Definiuje przezroczystość elementu
+transition: color 0.5s; - animacja kolory bedzie robic z opóżnieniem 0,5s do znacznika a
+
+overflow: hidden; - jak element wyjdzie za diva to go ukryje
+
+display: inline: zachowuje się jak span, zajmuje obszar tylko tyle co ma tekst
+
+content-box (domyślne)
+Rozmiar elementu dotyczy tylko zawartości. Padding i border są dodawane poza określoną szerokość i wysokość elementu
+
+border-box
+Rozmiar elementu zawiera zawartość, padding i border. Padding i border są uwzględniane wewnątrz zdefiniowanej szerokości i wysokości.
+
+
+

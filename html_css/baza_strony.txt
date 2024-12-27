@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+
+ <html lang="pl">
+
+
+<head>
+<meta charset="utf-8"/>
+<title>Moja strona gotowa</title>
+<meta name="description" content="Przed tobą strona o filach"/>
+<meta name="keywords" content="film,kino"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edage,chrome=1"/>
+<link rel="stylesheet" href="css.css" type="text/css" /> 
+
+
+
+
+
+</head>
+
+
+	<body>
+				
+	
+  
+	</body>
+
+
+</html>

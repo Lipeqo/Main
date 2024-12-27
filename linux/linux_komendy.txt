@@ -1,0 +1,110 @@
+echo "Hej" - wyświetlenie na konsoli
+
+whoami
+student@koputer:~$ -
+student – bieżący użytkownik systemu
+komputer – nazwa maszyny (hosta), na której użytkownik pracuje
+
+pwd - wyświetenie dokładnej ścieżki
+
+ls - wyświetlenie wszystkich plików bez ukrytych
+ls -a - wyświetlenie pików razem z ukrytymi
+ls -al - wyświetenie wszystkich plików razem z dostępem do tych plików
+
+uptime - czas pracy komputera
+
+touch plik.txt - stworzenie pliku
+cat  plik.txt - wyświetelnie pliku
+uname -a   - wersja kodra systemu na którym jest oparty system operacyjny
+cd - przejscie do danego katalogu lub do danej sciezki
+mkdir  folder - utworzenie folderu
+chmod u+x - nadanie uprawniec do pliku
+
+Pierwszy znak (typ pliku):
+d - katalog (ang. directory),
+plik zwykły (ang. file),
+
+Każdy z trzech bloków (po 3 znaki) oznacza uprawnienia w kolejności:
+
+Właściciel (u) – pierwszy blok,
+Grupa (g) – drugi blok,
+Inni użytkownicy (o) – trzeci blok.
+
+każdy blok zawiera:
+
+r (read) – uprawnienie do odczytu,
+w (write) – uprawnienie do zapisu,
+x (execute) – uprawnienie do wykonania (dla katalogu oznacza możliwość wejścia do niego),
+– brak uprawnienia.
+
+Właściciel to użytkownik, który jest twórcą pliku lub osoba, której ręcznie przypisano właścicielstwo za pomocą np. polecenia chown
+Domyślnie grupa pliku to grupa, do której należy właściciel w momencie tworzenia pliku (można to zmienić poleceniem chgrp lub chown).
+Wszyscy pozostali użytkownicy systemu, którzy, Są po prostu innymi użytkownikami na danej maszynie.
+
+./plik.txt  - wykonać plik jako program, odpalenie programu
+
+ls folder/    - wyswietlenie zawartosci danego katalogu
+
+su user - przełączenie na tego użytkownika
+sudo useradd user - utworznie nowego uzytkownika
+sudo passwd user - nadanie hasla uzytkownikowi
+
+exit  - wylogowanie się z użytkownika
+
+sudo deluser user sudo - usuniecie uzytkowika z grupy sudo
+
+sudo user -r user - usuniecie katalogu z profilem uzytkowika  i ogólne usuniecie użytkownika
+
+
+
+cd  folder    -  wejscie katalogu
+cd ..    -  przescie do katalodu nadrzednego
+
+ls -lah plik.txt        - sprawdzenie odtatniej modyfikacji pliku
+
+touch -m plik.txt  - nadpisuje czas modyfikacji pliku na aktualny
+
+cd ../..  - wejscie o dwa foldery wyżej
+
+touch plik.txt - utworzenie pliku
+
+date - wyswietlenie daty
+
+date > plik.txt  - przekierowanie daty do pliku, lub nadpisze wszystko co tam bylo ta data jedna
+date >> plik.txt - dodanie kolejnej daty do pliku nie usuwajoc poprzedniej zawartosci pliku
+
+man date - manual dla date
+
+alias jd="ls" - utworzenie aliasu czyli tworzenie własnych komend
+
+find . -type f  -name "plik.txt"  - znalezienie w danym profilu uzytkownika danego pliku
+
+cp plik.txt plikt2.txt  - utworznie kopi pliku
+
+mv plik.txt dupa.txt - zmiana nazwy plku
+
+file plik.txt - wyświetlenie informacji o pliku
+
+du -h folder - sprawdzenie rozmairu folderu
+
+df -h
+free -h
+lscpu
+lspci
+lspci | grep 'VGA'
+
+wget http.....  - popranie pliku tekstowego z internetu
+
+head -n 1 plik.txt - wyświetlenie danej ilosci linijek 
+
+tail -n 1 plik.txt  - wyswietlenie ostatniej liniki tekstu
+
+ping -c 5 onet.pl - spingowanie serwisu onet 5 razy
+
+ping -c 5 onet.pl | ping -c 5 gogle.pl  - spingoiwanie dwóch adresów na raz w jednej linice
+
+sudo stree --cpu 1  -- timeout 10
+
+top
+
+ps aux | grep "Tress" 

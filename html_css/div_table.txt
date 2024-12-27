@@ -1,0 +1,36 @@
+Divy:
+
+float: left; - lewy przycioga prawego diva
+clear: both; - wyczyszczenie ustawienia
+
+Tableka:
+
+ <h1 style="text-align: center;">Tabela z połączonymi komórkami</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Imię</th>
+                <th>Nazwisko</th>
+                <th>Wiek</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">1</td>
+                <td>Jan</td>
+                <td>Kowalski</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td colspan="3">Połączone imię i nazwisko</td>
+                
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Anna</td>
+                <td>Nowak</td>
+                <td>30</td>
+            </tr>
+        </tbody>
+    </table>

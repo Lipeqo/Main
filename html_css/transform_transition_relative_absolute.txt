@@ -1,0 +1,196 @@
+transform - transformacja, zmianna
+
+transition - plynne przejscie
+
+Przybliżenie1:
+
+.photo1
+{
+	width: 450px;
+	transition: transform 2s ease-in-out;
+}
+
+.photo1:hover
+{
+	transform: scale(0.9);
+}
+
+Przybliżenie2:
+
+.photo1
+{
+	width: 450px;
+	transition: all 2s ease-in-out;
+}
+
+.photo1:hover
+{
+	transform: scale(0.9);
+	opacity: 0.1;
+}
+
+Obrót:
+
+.photo1
+{
+	width: 450px;
+	transition: all 2s ease-in-out;
+}
+
+.photo1:hover
+{
+	transform: scale(0.9) rotate(45deg);
+	opacity: 0.1;
+}
+
+Wykrzywienie:
+
+.photo1
+{
+	width: 450px;
+	transition: all 2s ease-in-out;
+}
+
+.photo1:hover
+{
+	transform: scale(0.9) rotate(45deg) skew(-50deg, 0deg);
+	opacity: 0.1;
+}
+
+Wyswietlenie tekstu na obrazu:
+
+<div class="postcard">
+				
+	<div class="photo3"> 
+		<div class="overlay">
+			<a href="#"><img src="img/03.jpg" alt="Bryce Canyon"></a>
+			<a class="link" href="#"><p>Rok założenia: 1928, powierzchnia 145 km<sup>2</sup></p></a>
+		</div>
+	</div>
+	<p>Park Narodowy Bryce Canyon - Utah, USA</p>
+					
+</div>
+
+- w css
+
+.photo3
+{
+	width: 450px;
+}
+
+.overlay
+{
+	position: relative;
+	width: 450px;
+	height: 278px;
+}
+
+.overlay .link
+{
+	position: absolute;
+	display: block;
+	width: 450px;
+	height: 65px;
+	background-color: #111;
+	left: 0px;
+	bottom: 0px;
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.overlay:hover .link
+{
+	opacity: 0.8;
+}
+
+Dodanie pojawiajocej sie ikonki
+
+<div class="postcard">
+				
+	<div class="photo4"> 
+		<div class="overlayT">
+			<a href="#"><img src="img/04.jpg" alt="Taj Mahal"></a>
+			<a class="link" href="#"><span class="icon"><i class="icon-search"></i><p>zobacz album</p></span></a>
+		</div>
+	</div>
+	<p>Mauzoleum Taj Mahal - Agra, Indie</p>
+					
+</div>				
+
+- w css
+
+.photo4
+{
+	width: 450px;
+}
+
+.overlayT
+{
+	position: relative;
+	width: 450px;
+	height: 278px;
+}
+
+.overlayT .link
+{
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: #27a38d;
+	left: 0px;
+	top: 0px;
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.overlayT:hover .link
+{
+	opacity: 0.9;
+}
+
+.icon
+{
+	display: block;
+	top: 25%;
+	position: relative;
+	font-size: 72px;
+}
+
+.icon p
+{
+	font-size: 20px;
+}
+
+Powiekszenie zdjęcia:
+
+.photo5
+{
+	width: 450px;
+	height: 278px;
+	overflow: hidden;
+}
+
+.photo5 img
+{
+	transition: all 0.5s ease-in-out;
+}
+
+.photo5:hover img
+{
+	transform: scale(1.15);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

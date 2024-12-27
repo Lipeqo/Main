@@ -1,0 +1,16 @@
+Model  TCP/IP model internetu:
+
+Warstwa aplikacji (Application Layer) - zadanie http do np. serwera,dns, dhcp 
+Warstwa transportowa (Transport Layer) - dodaje porty zrodlowe i docelowe, dzieli paczki jak dane sa zaduze
+Warstwa internetowa (Internet Layer) - daje ip zrodla i docelowe
+Warstwa dostępu do sieci (Network Access Layer) - odpowiada za połoczenie fizyczne, tłuamczy dane na sygnaly magnetyczne lub optyczne lub radiowe zależy od technoliogi przesylu
+
+Opcje dostarczania wiadomości:
+
+Unicast - komunikacja jeden do jednego
+Multicast - jeden do wielu, zazwyczaj nie wszystkie
+Broadcast - jeden do wszystkich
+
+Uwaga: Broadcasty sa używane w ipv4 a ipv6 nie wystepuja
+
+Anycast?

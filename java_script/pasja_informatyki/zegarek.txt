@@ -1,0 +1,57 @@
+- Kod JavaScripts wykonuje się u nas lokalnie na komputerze
+- Język do tworzenia aniamcji
+
+var - zmienna
+W JavaScript nie podajemy typów danych
+
+- przeglodarka wykonuje Html linia po linii wiec skrypt w sekcji head nie ma prawa wiedzieć ze sekcji znajduje się pojemnik o nazwie zegar. Więc włożenie takiego zegara będzie możliwe po zdefiniowaniu pojemnika o nazwie zegar.
+
+document.getElementById("zegar") - weź cały dokoment i wyszukaj w nim element o wskazanym id
+document.getElementById("zegar").innerHTML = dzien - włożenie do tego diva innej zawartości
+
+Konkatenacja - łączenie napisów
+
+setTimeout(odliczanie()); - funkcja któram a na celu wywołać inna funkcje po określonym czasie
+
+- Html
+
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<title>Odliczanie czasu</title>
+	
+	<script type="text/javascript" src="timer.js"></script>
+	
+</head>
+<body onload="odliczanie();">
+
+	<div id="zegar"></div> 
+	
+</body>
+</html>
+
+- JavaScript
+
+function odliczanie()
+	{
+		var dzisiaj = new Date();
+		
+		var dzien = dzisiaj.getDate();
+		var miesiac = dzisiaj.getMonth()+1;
+		var rok = dzisiaj.getFullYear();
+		
+		var godzina = dzisiaj.getHours();
+		if (godzina<10) godzina = "0"+godzina;
+		
+		var minuta = dzisiaj.getMinutes();
+		if (minuta<10) minuta = "0"+minuta;
+		
+		var sekunda = dzisiaj.getSeconds();
+		if (sekunda<10) sekunda = "0"+sekunda;
+		
+		document.getElementById("zegar").innerHTML = 
+		 dzien+"/"+miesiac+"/"+rok+" | "+godzina+":"+minuta+":"+sekunda;
+		 
+		 setTimeout("odliczanie()",1000);
+	}

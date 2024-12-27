@@ -1,0 +1,40 @@
+grep - jest uposledzone i niemozna robic z nim zagnieżonych wyrazen tylko proste
+grep -P - ma dostep do rozrzeżonych opcji
+
+grep -P "tu wyrazenie musi byc w nawiasie"  plik.txt
+
+strona regex 101 do ćwiczen
+
+Filip123 - bedzie traktować to jako zwykły ciąg znaków, i bedzie szzukać takeigo samego
+k.t - znak kropki oznacza dowoly znak z wyjątkiem znaku nowego wiersza, może być np. kot
+.o. - znak kropki oznacza dowoly znak z wyjątkiem znaku nowego wiersza, moze być np. hot
+a|b|c - operato OR pozwala na znalezienie a lub b lub c
+bar|pub - operato OR pozwala na znalezienie słowa bar lub pub
+zrobił( |a) - operato OR pozwala na znalezienie słowa zrobił lub zrobiła
+b[ou]k - oznacza bok i buk, ale nie bouk 
+b[a-z]k - wprowadzenie przedziałów, dowolny jeden znak z tego przedziału nie mogą być dwa bo nie zadziała 
+^a - daszek oznacza że pierwszy znak wiesza musi być literą a
+a$ - dolar oznacza że ostatni znak wiersza musi być literą a
+^.o.a$ - 
+b[^a]t - daszek w zestawie oznacza wszystko oprucz tych z zetawu, może oznaczać bot, but, byt, ale nie bat
+pta?k -  jedno lub zero a
+pta*k - oznacza zero lub wieccej a
+pta+k - Plus ”+” po symbolu oznacza co najmniej jedno wystąpienie lubb  wiecej
+
+. -  Znaki specjalne poprzedzone backslash’em ”” oznaczają same siebie- a nie
+ znak specjalny:
+
+
+\d - dowolną cyfrę dziesiętną, tj. dowolny znak z zakresu od 0 do 9.
+\D -dowolny znak, który nie jest cyfrą (czyli nie jest jednym z 0-9).
+\s - znak spacji
+\S - dowolny znak który nie jest spacją
+\w - wszystko co należy do zakresy [a-zA-Z0-9]
+\W - wszystko co nie należy do zakresu [^a-zA-Z0-9]
+
+a{3} - oznacza że dokładnie ma mieć 3 a
+a{3,} - oznacza że najmniej 3 ale może mieć więcej
+a{,3} - oznacza że maksymalnie może być 3
+a{1,3}- oznacza że najmniej może być 1 a najwiecej 3 wystąpień a (edytowane)
+
+Napisz na #🐧wyrażenie-regularne-linux

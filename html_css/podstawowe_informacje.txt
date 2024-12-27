@@ -1,0 +1,42 @@
+- Główne definicje
+
+html I css to jezyki jawne
+Html - co jest na stronie
+CSS - jak wygląda srona
+Ctrl + U - źródło strony
+Przeglodarka intepretuje kod przez nas napisany
+index.html lub index.htm - tak nazywamy pierwszą strone
+Tagi lub znaczniki mają swoje wartości czyli atrybuty mogą być umieszczane w dowolnej kolejności
+znaczniki piszemy z małej taka zasada
+kolejnosć atrybutów jest dowolna w znacznikach
+index - strona główna
+Encje w Html ikoki
+
+Diedziczenie - dziedziczy sie wartosći np. kolory ale nie połozeniee
+Właściwości związane z układem (np. position, margin, padding, width, height, itp.) nie są dziedziczone automatycznie.
+
+
+złamanie hierarchi, wymuszenie czegoś
+color: green !important;
+
+- Hierarchia
+1 Styl wpisany w lini
+2 Styl w dokomnecie sekcja style
+3 Styl zewnetrzny w osobnym pliku
+4 Wartość domyślna
+
+
+- Kolory RGB w systemi 16 https://rrogacz.pl/css-kolory
+"#" - oznacza że kolor jest zapisany w systemi 16
+
+
+
+
+- kometarz
+/gwiazdka k  gwiazdka/
+Ctrl + /
+
+:Dodatki
+subtlepatterns. com - fajne tla
+pudełkowy cień - https://cssgenerator.pl/box-shadow-generator/
+ikonki https://fontello.com

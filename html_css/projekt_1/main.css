@@ -1,0 +1,163 @@
+body
+{
+    background-color: #5a5252;
+    margin: 0px;
+    background-image: url(ryba2.png);
+}
+
+
+#ms
+{
+    background-color: aqua;
+    text-align: center;
+    color: white;
+    padding: 25px;
+    margin: 0px;
+}
+
+.nav
+{
+    background-color: #000000;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    
+    
+}
+
+
+.nav > li
+{
+    background-color: #262323;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 15px;
+}
+
+
+
+.nav > li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.nav > li a:hover
+{
+    color: chartreuse;
+    text-decoration: underline;
+}
+
+
+h1.sectiontytuly
+{
+    background-color: aqua;
+    text-align: center;
+    padding: 25px;
+    font-size: 25px;
+    margin: 0px;
+    
+}
+
+/*sekcja pierwsza*/
+
+.s1
+{
+    margin-top: 50px;
+    width: 1000px;
+    min-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #909090;
+    
+    
+
+}
+
+
+
+.zdj
+{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.fl
+{
+    float: left;
+}
+
+.przesuniecie
+{
+    margin: 50px;
+    background-color: black;
+    display: inline-block;
+    padding: 25px;
+    
+    
+}
+
+.przesuniecie_k
+{
+    margin-left:25px;
+    color: azure;
+}
+
+/* media spolecznosciowe*/
+
+#footer
+{
+    width: 1000px;
+    background-color:aqua;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    
+        
+    
+}
+
+
+.zdjfooter
+{
+    font-size: 75px; 
+    
+    display: inline-block;
+    text-align: center;
+    margin-left: 50px;
+    
+    
+    
+    
+}
+.zdjfooter:first-child
+{
+    margin-left: 206px;
+}
+
+#lol
+{
+    
+   
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    
+}
+
+.s2
+{
+    
+    width: 1000px;
+    min-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #909090;
+    
+    
+
+}

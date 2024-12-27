@@ -1,0 +1,59 @@
+Tapety:
+https://www.freepik.com/free-photos-vectors/subtle-pattern
+
+Box-Shado-Generator:
+https://cssgenerator.pl/box-shadow-generator/
+box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+
+Ustawinie znacznika input:
+
+input
+{
+    background-color: blueviolet;
+    border-radius: 5px;
+    border: 2px dashed #9f6464;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px;
+}
+
+Pola tekstowe -  box-sizing:content-box liczymy wszystko osobno
+Przyciski -  box-sizing:border-box, ma miec dokadnie tyle, przeglodarka wpicza pading i ramke w szerokosc
+
+Ustawinie wyglądu dla koonkretnych przycisków:
+
+input[type="text"],[type="password"]
+{
+    background-color: blueviolet;
+    border-radius: 5px;
+    border: 2px dashed #9f6464;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px;
+}
+
+Ustawinie linku hover(najechac):
+
+input[type="submit"]:hover
+{
+   background-color: aqua;
+}
+
+Ustawienie focuc(jak sie nacisnie):
+
+input[type="password"]:focus,[type="text"]:focus
+{
+   background-color: #478e4d;
+   box-shadow: 0px 0px 100px 100px rgba(60, 109, 86, 1);
+}
+
+Dodanie placeholder(szary tekst):
+
+<form method="get" action="#">
+	<div> <input type="text" name="i" placeholder="Login" > </div>
+	<div> <input type="password" name="p" placeholder="Haslo"> </div>
+	<div> <input type="submit" value="Zapisz"> </div>
+</form>
+

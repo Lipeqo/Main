@@ -1,0 +1,56 @@
+- nazwa funkcji
+- ciało funkcji
+
+- potrzebujemy uchwytu by złapać jakomś wartość
+document.getElementById("pole")
+- dostanie warotsci pola
+document.getElementById("pole").value;
+- atrybut onclick
+<div><input type="submit" value="Sprawdz" onclick="sprawdz()"></div>
+
+----- P1
+
+- W Html
+
+  <div><input type="text" id="pole"></div>
+            <div><input type="submit" value="Sprawdz" onclick="sprawdz()"></div>
+             <div id="wynik"></div>
+
+- W JavaScript
+
+function sprawdz()
+{
+    var liczba = document.getElementById("pole").value;
+    if(liczba>0){document.getElementById("wynik").innerHTML="dodatnia";}
+    else if(liczba<0) document.getElementById("wynik").innerHTML="ujemna";
+    else document.getElementById("wynik").innerHTML="to nie jest liczba";
+    
+}
+
+----- P2
+
+- W Html
+
+ <div><input type="text" id="pole1"></div>
+            <div><input type="text" id="pole2"></div>
+            <div><input type="submit" value="Sprawdz" onclick="sprawdz()"></div>
+             <div id="wynik"></div>
+
+- W JavaScript
+
+ function sprawdz()
+{
+    var liczba1 = document.getElementById("pole1").value;
+    var liczba2 = document.getElementById("pole2").value;
+    var napis = "";
+    for( var i = liczba1; i<=liczba2;i++ )
+    {
+        napis = napis + " " + i ;
+    }
+    document.getElementById("wynik").innerHTML=napis;    
+}   
+
+----- P3
+
+- funkcja flor zaokrogla w dół
+var numer = Math.floor(Math.random()*5)+1;
