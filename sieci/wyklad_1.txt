@@ -46,3 +46,30 @@ Broadcast - jeden do wszystkich
 Uwaga: Broadcasty sa używane w ipv4 a ipv6 nie wystepuja
 
 Anycast?
+
+
+
+
+session - poloczenia z wielo serwerami 
+presentation - żeby aplikacja była wstanie otworzyć pliki z roznymi rozszezenaimi
+psysycial - czy napiecie elekryczne czy fale radiowe, swiatlo
+Data link - algorytm który wybiera który koputer nadaje a który odbiera
+
+trasport zajmuje się za jak cos nie dojdzie to powtorzy"
+internet tylko zajmujese ze ma przeslac na danyc adres nie interesuje go ze cos nie doszło
+
+
+dane - dane użytkowniak
+warstwa transportowa - segment 
+Seici IP - Pakiet 
+Dostep do sieci - ramka
+Bity (strumień bitowy)
+
+predkos
+przpeustowosc - jak będzie dużo uzytkownikow to jakość spdarnie
+
+oprócz danych użytkownika ta sa wysyalne tez dane z danych protokołów
+
+dane sterujacwe
+
+dane uzytkownika
