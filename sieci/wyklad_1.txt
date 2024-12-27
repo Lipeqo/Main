@@ -1,3 +1,35 @@
+Mamy dwa modele budowy sieci:
+
+- ISO OSI (teorytyczny) - 7 warstw
+- TCP/IP (praktyczny) - 4 warstwy
+
+wiadmosc > sygnał > medium(posrednik) > sygnał > wiadmosc
+
+Message source > Encoder > Transmiter > Medium > Receiver > Decoder > Message Destination
+
+Gdy większa częstotliwość fal tym fale są krótsze i mają mniejszy zasieg bo trudniej przechodzą przez przeszkody.
+Fale o mniejszej częstotliwości łatwiej przechodzą przez przeszkody ba są dłuższe.
+
+Kable Ethernet z rodziny TP np. kabel UTP(skretka) z wejściem RJ45
+
+Termin "skretka" (skrętka) rzeczywiście jest używany w kontekście całej rodziny kabli typu "Twisted Pair" (TP), a nie tylko w odniesieniu do modelu UTP.
+
+5G - litera g od generacji
+
+AM - dlugosc
+FM - czestotliwosc
+Fast - scinanie fal
+
+1 sygnal
+2 glosnik
+3 kabel
+
+Generacje Ethernet:
+Ethernet
+Fast Ethernet
+Gigabit Ethernet (GBEthernet)
+10 Gigabit Ethernet (10GBEthernet)
+
 Model  TCP/IP model internetu:
 
 Warstwa aplikacji (Application Layer) - zadanie http do np. serwera,dns, dhcp 
