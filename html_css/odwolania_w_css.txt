@@ -1,0 +1,27 @@
+- Id mają pierszenstwo przed klasami
+
+-ID
+<h1 id="h1">ddd<h1/>- do danie idyfikatora do znaczniaka, id jest unikalne, jest ważneijsze od klasy
+#h1{} - odwołanie się
+
+-Class
+<h1 class="h1">ddd<h1/>- dodanie klasy, do klas możemy podpinać wiele elementów
+.h1{} - odwołąnie do kalsy
+
+#h1,#h1{} - odwołanie do wielu klas na raz
+
+table a {} - musi się znalesc w tej ścieżce 
+
+table > tr > td {} - tak tez można
+
+table > tr > td:last-child{} - ostatnie dziecko
+
+table > tr > td:first-child{} - pierwsze dziecko
+
+table > tr > td:nth-child(1){} - który konkretnie
+
+h1.class {}
+
+h1#class {}
+
+ol > li > ul > li:before{}

@@ -20,46 +20,5 @@ ul
 </ol>
 
 
-ol > li
-{
 
-}
-ol > li  > ul
-{
-
-}
-
-- dziecko
-
-.menu > li
-{
-    color: #ffe200;
-    display: inline-block;
-}
-
-- dla pierwszego elementu dziecka
-
-.menu > li:first-child
-{
-border-left: 5px solid white;
-}
-
-Linki na własnej stronie:
-
-<li><a  href="#parametrylcd">Budowa monitora</a></li>
-<h1 id="parametrylcd">Dobór parametrów monitora LCD</h1>
-
-Inne:
-ol > li > ul > li
-{
-	margin: 0px;
-}
-
-
-ol > li > ul > li:before
-{
-	color: #485b3b;
-	content: "⚠";
-	margin-right: 5px;
-}
 
