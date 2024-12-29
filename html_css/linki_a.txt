@@ -1,14 +1,3 @@
-<a href="https://www.youtube.com/watch?v=k2IydkL3EOs&list=PLOYHgt8dIdox9Qq3X9iAdSVekS_5Vcp5r&index=4" target="_blank" title="zobacz na gg">
-  Kliknij, aby obejrzeć film!
-</a>
-
-href – Określa adres URL, na który prowadzi link.
-target="_blank" – Sprawia, że link otworzy się w nowej karcie/oknie przeglądarki.
-title – Dodaje dodatkowy tekst, który wyświetli się po najechaniu na link. Może być przydatny do opisania zawartości linku.
-
-
-Twoje wyjaśnienia dotyczące linków są prawie poprawne! Pozwól, że wyjaśnię szczegóły i dodać trochę informacji:
-
 Podstawowy link HTML:
 html
 Copy code
