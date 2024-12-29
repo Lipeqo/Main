@@ -15,4 +15,5 @@ a:visited { ... } – Styluje odwiedzone linki (czyli te, które użytkownik ju�
 a:hover { ... } – Styluje link, kiedy na niego najedziesz (czyli kiedy kursor znajduje się nad linkiem). Zwykle używa się tego selektora do zmiany wyglądu linku przy interakcji, np. do zmiany koloru lub podkreślenia.
 a:active { ... } – Styluje link, kiedy jest klikany. Używane do efektów aktywacji linku (np. zmiany koloru lub tła podczas kliknięcia).
 
-
+a.class
+a#id
