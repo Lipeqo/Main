@@ -5,32 +5,28 @@ clear: both; - wyczyszczenie ustawienia
 
 Tableka:
 
- <h1 style="text-align: center;">Tabela z połączonymi komórkami</h1>
-    <table>
-        <thead>
-            <tr>
-                <th>#</th>
-                <th>Imię</th>
-                <th>Nazwisko</th>
-                <th>Wiek</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td rowspan="2">1</td>
-                <td>Jan</td>
-                <td>Kowalski</td>
-                <td>25</td>
-            </tr>
-            <tr>
-                <td colspan="3">Połączone imię i nazwisko</td>
+  <table>
+            <caption>Nagłówek tabeli</caption>
+            <thead>
+                <tr>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="3">1</td>
+                    
+                </tr>
+                <tr>
+                    <td >1</td>
+                    <td >1</td>
+                    <td >1</td>
+                    
+                </tr>
                 
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Anna</td>
-                <td>Nowak</td>
-                <td>30</td>
-            </tr>
-        </tbody>
-    </table>
+            </tbody>
+            <tfoot></tfoot>
+        
+        </table>
