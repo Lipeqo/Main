@@ -77,6 +77,8 @@ Podkreślenie tekstu.
 <sup>2</sup>
 robi index górny
 
+<q></q> - cytat
+
 
 Pozostałe znaczniki:
 <br/>

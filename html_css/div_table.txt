@@ -5,6 +5,17 @@ clear: both; - wyczyszczenie ustawienia
 
 Tableka:
 
+<caption>Nagłówek tabeli</caption> - nagłówek opcjonalny
+<thead></thead> - nagłówek
+<tbody></tbody> - ciało tabeli 
+<tfoot></tfoot> - stopka tabeli
+<tr></tr> - wiersz tabeli
+<th></th> - specjalana komorka dla nagłówka
+<td></td> - zwykła komórka
+<td colspan="3">1</td> - rozciogniecie komórki na kilka komorek
+<td rowspan="3">1</td> - rozciogniecie komórki na wiersze
+
+
   <table>
             <caption>Nagłówek tabeli</caption>
             <thead>
