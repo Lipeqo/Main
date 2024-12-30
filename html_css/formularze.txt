@@ -12,13 +12,18 @@ Przyciski nie mają tylko etykiet bo trzymją napis w sobie
 ----- Pola Tekstowe -----
 
 <form action="#" method="get" >
-            <fieldset>
-                <legend>Formularz</legend>
-                <div><label><input type="text" name="i" placeholder="Login" size="5" maxlength="5" required> </label></div>
-                <div><label><input type="password" name="p" placeholder="Haslo" size="5" maxlength="5" required> </label></div>
-                <div><label><input type="email" name="e" placeholder="Email" size="5" maxlength="5" required> </label></div>
-            </fieldset>
-        </form>
+        <fieldset>
+        	<legend>Formularz</legend>
+        	<div><label>Login: <input type="text" name="i" placeholder="Login" size="5" maxlength="5" required> </label></div>
+                <div><label>Haslo: <input type="password" name="p" placeholder="Haslo" size="5" maxlength="5" required> </label></div>
+                <div><label>Email: <input type="email" name="e" placeholder="Email" size="5" maxlength="5" required> </label></div>
+                <div><label>Numer: <input type="number" name="n" placeholder="numer" required> </label></div>
+                <div><label>Date: <input type="date" name="d"  required> </label></div>
+                <div><label>Date: <input type="color" name="c"  required> </label></div>
+               
+
+         </fieldset>
+</form>
 
 ----- Pola Radio -----
 
