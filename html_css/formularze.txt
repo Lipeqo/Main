@@ -53,9 +53,20 @@ name - dane zostna przeslane jako lista bo sa zgrupowane
 	 </fieldset>
 </form>
 
------ lista wyboru -----
+----- lista jednokrotnego wyboru -----
 
+<form action="#" method="get" >
+        <fieldset>
+                <legend>Formularz</legend>
+                <label for="x">Tekst</label>
+                <select id="x" size="1">
+                    <option>popcja1</option>
+                    <option selected>popcja2</option>
+                    <option>popcja3</option>
+                </select>
 
+	</fieldset>
+</form>
 
 
 ----- Lista wielokrotnego wyboru -----
