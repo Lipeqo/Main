@@ -102,8 +102,17 @@ multiple - wielokrotny wybór
 
             </fieldset>
         </form>
-     
 
+----- Duze pole tekstowe
+
+<form action="#" method="get" >
+        <fieldset>
+        	<textarea name="nazwa" rows="10" cols="100" placeholder="Wpisz tu tekst:">hhhhhhh</textarea>
+
+        </fieldset>
+</form>
+     
+     
 ----- Przyciski -----
 
 <input type="submit" value="Zamawiam">  - wysyla formularz PHP
