@@ -1,3 +1,26 @@
+Podstawowy link HTML:
+html
+Copy code
+<a href="https://www.youtube.com/watch?v=k2IydkL3EOs&list=PLOYHgt8dIdox9Qq3X9iAdSVekS_5Vcp5r&index=4" target="_blank" title="zobacz na gg">
+  Kliknij, aby obejrzeć film!
+</a>
+href – Określa adres URL, na który prowadzi link.
+target="_blank" – Sprawia, że link otworzy się w nowej karcie/oknie przeglądarki.
+title – Dodaje dodatkowy tekst, który wyświetli się po najechaniu na link. Może być przydatny do opisania zawartości linku.
+
+Selektory CSS dla linków:
+a { ... } – Styluje wszystkie linki na stronie.
+a:link { ... } – Styluje nieodwiedzone linki (czyli te, które użytkownik jeszcze nie kliknął).
+a:visited { ... } – Styluje odwiedzone linki (czyli te, które użytkownik już kliknął). Można używać tego selektora do zmiany koloru odwiedzonych linków, aby użytkownik wiedział, które linki już kliknął.
+a:hover { ... } – Styluje link, kiedy na niego najedziesz (czyli kiedy kursor znajduje się nad linkiem). Zwykle używa się tego selektora do zmiany wyglądu linku przy interakcji, np. do zmiany koloru lub podkreślenia.
+a:active { ... } – Styluje link, kiedy jest klikany. Używane do efektów aktywacji linku (np. zmiany koloru lub tła podczas kliknięcia).
+
+a.class
+a#id
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 z-index
 
 transform - transformacja, zmianna
