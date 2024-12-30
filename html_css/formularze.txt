@@ -12,13 +12,13 @@ Przyciski nie mają tylko etykiet bo trzymją napis w sobie
 ----- Pola Tekstowe -----
 
 <form action="#" method="get" >
-        <fieldset>
-        	<legend>Formularz</legend>
-        	<div><label><input type="text" name="i" placeholder="Login"> </label></div>
-                <div><label><input type="password" name="p" placeholder="Haslo"> </label></div>
-                <div><label><input type="email" name="e" placeholder="Email"> </label></div>
-	</fieldset>
-</form>
+            <fieldset>
+                <legend>Formularz</legend>
+                <div><label><input type="text" name="i" placeholder="Login" size="5" maxlength="5" required> </label></div>
+                <div><label><input type="password" name="p" placeholder="Haslo" size="5" maxlength="5" required> </label></div>
+                <div><label><input type="email" name="e" placeholder="Email" size="5" maxlength="5" required> </label></div>
+            </fieldset>
+        </form>
 
 ----- Pola Radio -----
 
