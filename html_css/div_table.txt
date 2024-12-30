@@ -3,6 +3,7 @@ Divy:
 float: left; - lewy przycioga prawego diva
 clear: both; - wyczyszczenie ustawienia
 box sizing border box(razem i content box(osobono
+div - kontener
 
 Tableka:
 
