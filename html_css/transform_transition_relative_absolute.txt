@@ -2,6 +2,12 @@ transform - transformacja, zmianna
 
 transition - plynne przejscie
 
+transition-duration: 2s; - Określa czas trwania animacji (w tym przypadku 2 sekundy).
+transition-property: color, background-color; - Definiuje, jakie właściwości będą animowane
+transition-delay: - Opóźnia start animacji o określoną wartość 
+transition-timing-function: - Opóźnia start animacji o określoną wartość 
+transition: all 1s ease-out 0.5s; - Możesz skrócić zapis do jednej linii:
+
 Przybliżenie1:
 
 .photo1
