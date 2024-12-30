@@ -119,3 +119,13 @@ multiple - wielokrotny wybór
 <input type="button" value="Zamawiam">  - nie wysyla formularz PHP
 <button>Zamawiam</button> - wysyla formularz PHP
 <button type="button">Zamawiam</button> - nie wysyla formularz PHP
+
+------
+
+<form action="#" method="get" >
+         <fieldset>
+              <input type="submit" value="Wyslij" >
+              <input type="reset" value="Restaruj" >
+
+        </fieldset>
+</form>
