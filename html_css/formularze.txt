@@ -55,39 +55,6 @@ name - dane zostna przeslane jako lista bo sa zgrupowane
 
 ----- lista wyboru -----
 
-Zrobienie listy wyboru i nadanie etykiety:
-
-<form method="get" action="#">
-	<label for="x">Tekst</label>
-
-	<select id="x" >
-		<option>popcja1</option>
-		<option>popcja2</option>
-		<option>popcja3</option>
-	</select>
-</form>
-
-Opcja wybrana na liście:
-
-<form method="get" action="#">
-	<label for="x">Tekst</label>
-	<select id="x">
-		<option>popcja1</option>
-		<option selected>popcja2</option>
-		<option>popcja3</option>
-	</select>
-</form>
-
-Wstawinie value żeby odebrać w PHP:
-
-<form method="get" action="#">
-	<label for="x" >Tekst</label>
-	<select id="x" name="lol">
-		<option value="1">popcja1</option>
-		<option value="2" selected>popcja2</option>
-		<option value="3">popcja3</option>
-	</select>
-</form>
 
 
 
