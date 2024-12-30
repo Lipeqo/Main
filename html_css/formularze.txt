@@ -1,11 +1,24 @@
 action - który skrypt PHP ma przetworzyć dane
 method - jakie metody HTTP ma użyć przeglodarka do przeslyania danych na serwer
 enctype - sposob kodowanai danych
+get - pewne info bedzie widac
+post - info tylko dla php
 
 required - wymagane wypełnienie
 maxlenght - maksymalna ilosc znaków
 
 Przyciski nie mają tylko etykiet bo trzymją napis w sobie
+
+----- Pola Tekstowe -----
+
+<form action="#" method="get" >
+        <fieldset>
+        	<legend>Formularz</legend>
+        	<div><label><input type="text" name="i" placeholder="Login"> </label></div>
+                <div><label><input type="password" name="p" placeholder="Haslo"> </label></div>
+                <div><label><input type="email" name="e" placeholder="Email"> </label></div>
+	</fieldset>
+</form>
 
 ----- Pola Radio -----
 
@@ -168,15 +181,7 @@ Dodanie mutliple(wielokrotny) i size(ile opcji sie wyswietla)
 	</select>
 </form>
 
------ Pola Tekstowe -----
 
-Placeholder wpisuje szary tekst do ramki:
-
-<form method="get" action="#">
-	<label>Tekst <input type="text" name="i" placeholder="Login"> </label>
-	<label>Tekst <input type="password" name="p"> </label>
-	<label>Tekst <input type="search" name="s"> </label>
-</form>
 
 ----- Pola z liczbami -----
 
