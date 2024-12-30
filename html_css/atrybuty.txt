@@ -96,5 +96,5 @@ Rozmiar elementu zawiera zawartość, padding i border. Padding i border są uwz
 
 
 vertical-align - pionowe wyposrodkkowanie
-
+line-height
 
