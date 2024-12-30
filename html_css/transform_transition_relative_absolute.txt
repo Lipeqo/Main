@@ -21,7 +21,7 @@ a#id
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-z-index
+
 
 transform - transformacja, zmianna
 
@@ -32,11 +32,6 @@ transition-property: color, background-color; - Definiuje, jakie właściwości 
 transition-delay: - Opóźnia start animacji o określoną wartość 
 transition-timing-function: - Opóźnia start animacji o określoną wartość 
 transition: all 1s ease-out 0.5s; - Możesz skrócić zapis do jednej linii:
-
-
-transform: translateX(value);
-
-left: calc(50% - 225px)
 
 Przybliżenie1:
 
@@ -217,7 +212,11 @@ Powiekszenie zdjęcia:
 	transform: scale(1.15);
 }
 
+------------------------------------------------------------------------------------------------------------------------------------------------------
 
+transform: translateX(value);
+z-index
+left: calc(50% - 225px)
 
 
 
