@@ -2,6 +2,9 @@ action - który skrypt PHP ma przetworzyć dane
 method - jakie metody HTTP ma użyć przeglodarka do przeslyania danych na serwer
 enctype - sposob kodowanai danych
 
+required - wymagane wypełnienie
+maxlenght - maksymalna ilosc znaków
+
 Przyciski nie mają tylko etykiet bo trzymją napis w sobie
 
 ----- Pola Radio -----
