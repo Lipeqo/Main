@@ -25,3 +25,8 @@ h1.class {}
 h1#class {}
 
 ol > li > ul > li:before{}
+
+#title::after{}
+#title::before{}
+
+
