@@ -8,6 +8,8 @@ transition-delay: - Opóźnia start animacji o określoną wartość
 transition-timing-function: - Opóźnia start animacji o określoną wartość 
 transition: all 1s ease-out 0.5s; - Możesz skrócić zapis do jednej linii:
 
+transform: translateX(value);
+
 Przybliżenie1:
 
 .photo1
