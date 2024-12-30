@@ -10,6 +10,8 @@ transition: all 1s ease-out 0.5s; - Możesz skrócić zapis do jednej linii:
 
 transform: translateX(value);
 
+left: calc(50% - 225px)
+
 Przybliżenie1:
 
 .photo1
