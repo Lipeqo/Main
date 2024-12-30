@@ -12,6 +12,7 @@ color: white; – biały tekst.
 font-size – Rozmiar czcionki.
 font-weight – Grubość czcionki (np. bold – pogrubienie).
 font-style – Styl czcionki (np. italic – kursywa).
+font-family: sans-serif - bez szeryfowa
 letter-spacing – Odstęp między literami.
 line-height – Odstęp między liniami tekstu.
 text-decoration:none – brak podkreślenia.
