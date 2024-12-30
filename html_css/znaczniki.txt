@@ -47,6 +47,8 @@ Sekcja do umieszczania stylów CSS w pliku HTML.
 <link rel="stylesheet" href="Moja strona gotowa.css" type="text/css" />
 Łączenie pliku CSS z HTML:
 
+<link rel="icon" href="k.png" /> - ikonka dla karty 16px na 16
+
 rel="stylesheet" – Określa, że jest to arkusz stylów.
 type="text/css" – Typ pliku (tekstowy, CSS).
 href="Moja strona gotowa.css" – Ścieżka do pliku CSS (domyślnie w tym samym folderze).
