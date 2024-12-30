@@ -27,75 +27,14 @@ Przyciski nie mają tylko etykiet bo trzymją napis w sobie
 
 ----- Pola Radio -----
 
-Sposoby na etykiete:
-
--Pierwszy
-
-<form method="get" action="#">
-	<input type="radio" id="nad"><label for="nad">tekst</label>
-</form>
-
--Drugi
-
-<form method="get" action="#">
-	<label><input type="radio" >teskt</label>
-</form>
-
-Żeby był wybór jednokrotny trzeba dać atrybyt name:
-
-<form method="get" action="#">
-	<label><input type="radio" name="d">teskt1</label>
-	<label><input type="radio" name="d">teskt2</label>
-	<label><input type="radio" name="d">teskt3</label>
-</form>
-
-Wprowadzenie atrybutu checked domyślnie zaznacza
-
-<form method="get" action="#">
-	<label><input type="radio" name="d" checked>teskt1</label>
-	<label><input type="radio" name="d">teskt2</label>
-	<label><input type="radio" name="d">teskt3</label>
-</form>
-
-Nałożenie divów żeby sie zachowały jak element blokowy czyli się ułożyły pod sobą:
-
-<form method="get" action="#">
-	<div><label><input type="radio" name="d" checked>teskt1</label></div>
-	<div><label><input type="radio" name="d">teskt2</label></div>
-	<div><label><input type="radio" name="d">teskt3</label></div>
-</form>
-
-Zgrupowanie elemnetów w fieldset:
-
-<form method="get" action="#">
-	<fieldset>
-		<div><label><input type="radio" name="d" checked>teskt1</label></div>
-		<div><label><input type="radio" name="d">teskt2</label></div>
-		<div><label><input type="radio" name="d">teskt3</label></div>
-	</fieldset>
-</form>
-
-Dodanie legendy dla fieldset:
-
-<form method="get" action="#">
-	<fieldset>
-		<legend>Tytuł</legend>
-		<div><label><input type="radio" name="d" checked>teskt1</label></div>
-		<div><label><input type="radio" name="d">teskt2</label></div>
-		<div><label><input type="radio" name="d">teskt3</label></div>
-	</fieldset>
-</form>
-
-Ustawinie atrybutu vaule żeby odebrac te watosci w PHP:
-
-<form method="get" action="#">
-	<fieldset>
-		<legend>Tytuł</legend>
-		<div><label><input type="radio" value="1" name="d" checked>teskt1</label></div>
-		<div><label><input type="radio" value="2" name="d">teskt2</label></div>
-		<div><label><input type="radio" value="3" name="d">teskt3</label></div>
-	</fieldset>
-</form>
+ <form action="#" method="get" >
+	 <fieldset>
+         <legend>Formularz</legend>
+		<div><label>Opcja1<input type="radio" value="1" name="d" checked></label></div>
+                <div><label>Opcja2<input type="radio" value="2" name="d"></label></div>
+                <div><label>Opcja3<input type="radio" value="3" name="d"></label></div>
+        </fieldset>
+ </form>
 
 ----- lista wyboru -----
 
