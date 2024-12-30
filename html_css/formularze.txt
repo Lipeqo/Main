@@ -71,14 +71,19 @@ name - dane zostna przeslane jako lista bo sa zgrupowane
 
 ----- Lista wielokrotnego wyboru -----
 
-Dodanie mutliple(wielokrotny) i size(ile opcji sie wyswietla)
-<form method="get" action="#">
-	<label for="x" >Tekst</label>
-	<select id="x" name="lol[]" multiple size="1">
-		<option value="1">popcja1</option>
-		<option value="2" selected>popcja2</option>
-		<option value="3">popcja3</option>
-	</select>
+multiple - wielokrotny wybór
+
+<form action="#" method="get" >
+        <fieldset>
+                <legend>Formularz</legend>
+                <label for="x">Tekst</label>
+                <select id="x" size="1" multiple="multiple">
+                    <option>popcja1</option>
+                    <option selected>popcja2</option>
+                    <option>popcja3</option>
+                </select>
+
+         </fieldset>
 </form>
 
 
