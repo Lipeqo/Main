@@ -127,15 +127,6 @@ Dodanie mutliple(wielokrotny) i size(ile opcji sie wyswietla)
 
 
 
------ Pola z liczbami -----
-
-Dodanie pola na liczby i step(czyli co ile liczby mają sie zmienaic):
-
-<form method="get" action="#">
-	<label>Tekst <input type="number"  name="kluczyk" > </label>
-	<input type="submit" value="Zamawiam"> 
-			
-</form>
 
 ----- Przyciski -----
 
