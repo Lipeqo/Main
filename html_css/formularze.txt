@@ -27,6 +27,8 @@ Przyciski nie mają tylko etykiet bo trzymją napis w sobie
 
 ----- Pola Radio -----
 
+name- zeby zazaczy które pola należa do tej samej grupy
+
  <form action="#" method="get" >
 	 <fieldset>
          <legend>Formularz</legend>
@@ -35,6 +37,21 @@ Przyciski nie mają tylko etykiet bo trzymją napis w sobie
                 <div><label>Opcja3<input type="radio" value="3" name="d"></label></div>
         </fieldset>
  </form>
+
+----- Check Box ------
+
+name - dane zostna przeslane jako lista bo sa zgrupowane
+
+<form action="#" method="get" >
+         <fieldset>
+                <legend>Formularz</legend>
+                <div><label>Opcja1<input value="1" name="[]wyp" checked disabled  type="checkbox"></label></div>
+                <div><label>Opcja2<input value="2" name="[]wyp" type="checkbox"></label></div>
+                <div><label>Opcja3<input value="3" name="[]wyp" type="checkbox"></label></div>
+                <div><label>Opcja4<input value="4" name="[]wyp" type="checkbox"></label></div>
+                <div><label>Opcja5<input value="5" name="[]wyp" type="checkbox"></label></div>
+	 </fieldset>
+</form>
 
 ----- lista wyboru -----
 
@@ -72,18 +89,7 @@ Wstawinie value żeby odebrać w PHP:
 	</select>
 </form>
 
------ Check Box ------
 
-<form action="#" method="get" >
-         <fieldset>
-                <legend>Formularz</legend>
-                <div><label>Opcja1<input value="1" name="[]wyp" checked disabled  type="checkbox"></label></div>
-                <div><label>Opcja2<input value="2" name="[]wyp" type="checkbox"></label></div>
-                <div><label>Opcja3<input value="3" name="[]wyp" type="checkbox"></label></div>
-                <div><label>Opcja4<input value="4" name="[]wyp" type="checkbox"></label></div>
-                <div><label>Opcja5<input value="5" name="[]wyp" type="checkbox"></label></div>
-	 </fieldset>
-</form>
 
 ----- Lista wielokrotnego wyboru -----
 
