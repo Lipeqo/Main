@@ -86,7 +86,22 @@ multiple - wielokrotny wybór
          </fieldset>
 </form>
 
+----- lista grupowa
 
+<form action="#" method="get" >
+            <fieldset>
+                <legend>Formularz</legend>
+                <label for="x">Tekst</label>
+                <select id="x" size="1" multiple="multiple">
+                    <optgroup>
+                        <option>popcja1</option>
+                        <option selected>popcja2</option>
+                        <option>popcja3</option>
+                    </optgroup>
+                </select>
+
+            </fieldset>
+        </form>
 
 
 ----- Przyciski -----
