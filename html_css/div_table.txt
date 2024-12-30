@@ -7,6 +7,8 @@ div - kontener
 
 Tableka:
 
+vertical-align - pionowe wyposrodkkowanie
+
 <caption>Nagłówek tabeli</caption> - nagłówek opcjonalny
 <thead></thead> - nagłówek
 <tbody></tbody> - ciało tabeli 
