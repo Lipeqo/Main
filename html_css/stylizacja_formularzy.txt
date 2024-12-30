@@ -5,12 +5,26 @@ Box-Shado-Generator:
 https://cssgenerator.pl/box-shadow-generator/
 box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
 
-Gradient
+Gradient liniowy
 
 .gradient-box {
     width: 300px;
     height: 200px;
     background: linear-gradient(to right, red, blue);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    border: 1px solid black;
+}
+
+Gradient odsrodka
+
+.gradient-box {
+    width: 300px;
+    height: 200px;
+    background: radial-gradient(red, red, blue);
     color: white;
     justify-content: center;
     align-items: center;
