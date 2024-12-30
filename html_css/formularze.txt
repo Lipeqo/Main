@@ -74,43 +74,15 @@ Wstawinie value żeby odebrać w PHP:
 
 ----- Check Box ------
 
-Dodanieu CheckBox:
-
-<form method="get" action="#">
-	<fieldset>
-		<legend>Tekst</legend>
-		<div><label>Opcja1<input type="checkbox"></label></div>
-		<div><label>Opcja2<input type="checkbox"></label></div>
-		<div><label>Opcja3<input type="checkbox"></label></div>
-		<div><label>Opcja4<input type="checkbox"></label></div>
-		<div><label>Opcja5<input type="checkbox"></label></div>
-	</fieldset>
-</form>
-
-Dodanie checked(zaznaczone) disabled(wyłączone):
-
-<form method="get" action="#">
-	<fieldset>
-		<legend>Tekst</legend>
-		<div><label>Opcja1<input checked disabled  type="checkbox"></label></div>
-		<div><label>Opcja2<input type="checkbox"></label></div>
-		<div><label>Opcja3<input type="checkbox"></label></div>
-		<div><label>Opcja4<input type="checkbox"></label></div>
-		<div><label>Opcja5<input type="checkbox"></label></div>
-	</fieldset>
-</form>
-
-Ustawinie atrybutu value żeby odebrać w PHP:
-
-<form method="get" action="#">
-	<fieldset>
-		<legend>Tekst</legend>
-		<div><label>Opcja1<input value="1" name="[]wyp" checked disabled  type="checkbox"></label></div>
-		<div><label>Opcja2<input value="2" name="[]wyp" type="checkbox"></label></div>
-		<div><label>Opcja3<input value="3" name="[]wyp" type="checkbox"></label></div>
-		<div><label>Opcja4<input value="4" name="[]wyp" type="checkbox"></label></div>
-		<div><label>Opcja5<input value="5" name="[]wyp" type="checkbox"></label></div>
-	</fieldset>
+<form action="#" method="get" >
+         <fieldset>
+                <legend>Formularz</legend>
+                <div><label>Opcja1<input value="1" name="[]wyp" checked disabled  type="checkbox"></label></div>
+                <div><label>Opcja2<input value="2" name="[]wyp" type="checkbox"></label></div>
+                <div><label>Opcja3<input value="3" name="[]wyp" type="checkbox"></label></div>
+                <div><label>Opcja4<input value="4" name="[]wyp" type="checkbox"></label></div>
+                <div><label>Opcja5<input value="5" name="[]wyp" type="checkbox"></label></div>
+	 </fieldset>
 </form>
 
 ----- Lista wielokrotnego wyboru -----
