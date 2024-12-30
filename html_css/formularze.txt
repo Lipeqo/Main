@@ -17,7 +17,7 @@ Przyciski nie mają tylko etykiet bo trzymją napis w sobie
         	<div><label>Login: <input type="text" name="i" placeholder="Login" size="5" maxlength="5" required> </label></div>
                 <div><label>Haslo: <input type="password" name="p" placeholder="Haslo" size="5" maxlength="5" required> </label></div>
                 <div><label>Email: <input type="email" name="e" placeholder="Email" size="5" maxlength="5" required> </label></div>
-                <div><label>Numer: <input type="number" name="n" placeholder="numer" required> </label></div>
+                <div><label>Numer: <input type="number" name="n" placeholder="numer" required step="0.1"> </label></div>
                 <div><label>Date: <input type="date" name="d"  required> </label></div>
                 <div><label>Date: <input type="color" name="c"  required> </label></div>
                
@@ -132,7 +132,7 @@ Dodanie mutliple(wielokrotny) i size(ile opcji sie wyswietla)
 Dodanie pola na liczby i step(czyli co ile liczby mają sie zmienaic):
 
 <form method="get" action="#">
-	<label>Tekst <input type="number" step="0.1" name="kluczyk" > </label>
+	<label>Tekst <input type="number"  name="kluczyk" > </label>
 	<input type="submit" value="Zamawiam"> 
 			
 </form>
