@@ -10,7 +10,7 @@
 <meta name="keywords" content="film,kino"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edage,chrome=1"/>
 <link rel="stylesheet" href="css.css" type="text/css" /> 
-
+<link rel="icon" href="k.png" />
 
 
 
