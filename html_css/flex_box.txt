@@ -1,0 +1,55 @@
+flex - wyświetlanie rensponsywne
+
+
+dispaly: flex - samo daje ze elementy nie spadają w dół, się zmieejszaja jak zaczyna brakować miejsca, flez wmusza 
+
+display: flex; domyślne układanie bloków
+flex-direction: row;( domsyślnie czyli kolumnowow)pionowo
+flex-direction: column; - wierszowo poziomo
+
+flex-direction: row-reverse;
+flex-direction: column-reverse;
+
+flex-wrap: nowrap; - (domyślne nie zawijaj wierszy)
+flex-wrap: wrap; - zawijaj
+
+----------- 25
+
+flex-basis: 100%
+
+gap: 10px; =- odstep miedzy blokami w srodku
+
+----
+justify-content: flex-start;(domyslna) - będą czaczynac się od lewej
+
+justify-content: flex-end; - od prawej
+
+justify-content: space-between; - robi rowne przerwy
+
+justify-content: space-around; - przerwy ale tez od scian
+
+justify-content: space-evenly; przerwy wszędzie rowne
+
+justify-content: center; - na srodku
+----
+align-items: flex-start: (domyślna) - czyli od góry
+align-items: center; - srodk ale w pionie
+
+
+---
+
+flex-grow: 0; - dmomyslnie, czyli elementy nie mogą być większy niż basis
+flex-grow: 1; - element będzie się rozciogal by wypenic pustke
+
+----
+
+flex-shrink: 0 - (domsylna)
+flex-shrink: 1 - kurczenie elementu
+
+----- 
+
+flex: flex-grow,lex-shrink,flex-basis
+
+----
+
+order 0 (domsyslna) - ustawinei kolejdosci ale musa mieć divy swoje id
