@@ -1,0 +1,62 @@
+body
+{
+    background: linear-gradient(to right, red,yellow, blue, green);
+    margin: 0;
+
+}
+
+#Main
+{
+    width: 1500px;
+    height: 1000px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    
+}
+
+
+
+#zakladki
+{
+    background-color: #000000;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    
+}
+
+li:last-child
+{
+    margin-right: 400px;
+}
+
+
+
+.lista
+{
+    background-color: #262323;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 15px;
+   
+    
+}
+
+#zawartosc
+{
+    width: 1300px;
+    height: 100px;
+    float: left;
+}
+#reklama
+{
+    width: 200px;
+    height: 900px;
+    background-color: aliceblue;
+    float: left;
+}
