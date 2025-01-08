@@ -3,7 +3,7 @@ flex ma gdzies czy jego dziedzi są w display:block
 
 dispaly: flex - samo daje ze elementy nie spadają w dół, się zmieejszaja jak zaczyna brakować miejsca, flez wmusza 
 
-flex-direction: row;( domsyślnie czyli kolumnowow)pionowo
+flex-direction: row;( domsyślnie wierszowo)poziomo
 flex-direction: column; - wierszowo poziomo
 
 flex-direction: row-reverse;
