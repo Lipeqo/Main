@@ -39,12 +39,12 @@ align-items: center; - srodk ale w pionie  - ale musi byc ustawiona wyskosc na r
 ------
 
 flex-grow: 0; - dmomyslnie, czyli elementy nie mogą być większy niż basis
-flex-grow: 1; - element będzie się rozciogal by wypenic pustke
+flex-grow: 1; - bedzie rosnąć szerokosc ale nie wysokosć
 
 ----
 
-flex-shrink: 0 - (domsylna)
-flex-shrink: 1 - kurczenie elementu
+flex-shrink: 0 - (domsylna) 
+flex-shrink: 1 - kurczenie elementu w szerokosci
 
 ----- 
 
