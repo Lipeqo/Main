@@ -21,15 +21,10 @@ gap: 10px; =- odstep miedzy blokami w srodku
 -----Ustawinie poziome
 
 justify-content: flex-start;(domyslna) - będą czaczynac się od lewej
-
 justify-content: flex-end; - od prawej
-
 justify-content: space-between; - robi rowne przerwy
-
 justify-content: space-around; - przerwy ale tez od scian
-
 justify-content: space-evenly; przerwy wszędzie rowne
-
 justify-content: center; - na srodku
 
 -----Ustawinie pionowe
