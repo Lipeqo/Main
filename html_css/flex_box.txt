@@ -32,7 +32,11 @@ justify-content: center; - na srodku
 align-items: flex-start: (domyślna) - czyli od góry  - ale musi byc ustawiona wyskosc na rodzicu
 align-items: center; - srodk ale w pionie  - ale musi byc ustawiona wyskosc na rodzicu
  
----
+-----sklejenie claej grupy
+
+ align-content: center;
+
+------
 
 flex-grow: 0; - dmomyslnie, czyli elementy nie mogą być większy niż basis
 flex-grow: 1; - element będzie się rozciogal by wypenic pustke
