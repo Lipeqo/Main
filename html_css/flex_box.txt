@@ -44,7 +44,7 @@ flex-grow: 1; - bedzie rosnąć szerokosc ale nie wysokosć
 ----
 
 flex-shrink: 0 - (domsylna) 
-flex-shrink: 1 - kurczenie elementu w szerokosci
+flex-shrink: 1 - kurczenie elementu w szerokosci jesli bedzie mial mniej niz basic to sppadnie do kolejnego wiersza
 
 ----- 
 
