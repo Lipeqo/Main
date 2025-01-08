@@ -16,7 +16,7 @@ flex-wrap: wrap; - zawijaj
 
 flex-basis: 100%
 
-gap: 10px; =- odstep miedzy blokami w srodku
+gap: 10px; =- odstep miedzy blokami ale nie od krawedzi rodzica
 
 -----Ustawinie poziome
 
