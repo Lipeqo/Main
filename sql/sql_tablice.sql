@@ -8,15 +8,15 @@ CREATE TABLE Tablica_Klasa (
     Klasa_Id INT PRIMARY KEY IDENTITY(1,1)
 );
 
--- Tabela: Uczeñ
+-- Tabela: UczeÃ±
 CREATE TABLE Tablica_Uczen (
     Uczen_Imie VARCHAR(32),
     Uczen_Nazwisko VARCHAR(64),
     Uczen_Plec INT,
     Uczen_Data_Urodzenia DATETIME,
     Uczen_Pesel VARCHAR(11) PRIMARY KEY,
-    Uczen_Adres VARCHAR(100), -- Zwiêkszona d³ugoœæ
-    Uczen_Telefon VARCHAR(15), -- Zwiêkszona d³ugoœæ
+    Uczen_Adres VARCHAR(100), -- ZwiÃªkszona dÂ³ugoÅ“Ã¦
+    Uczen_Telefon VARCHAR(15), -- ZwiÃªkszona dÂ³ugoÅ“Ã¦
     Uczen_Id_Klasa INT,
     FOREIGN KEY (Uczen_Id_Klasa) REFERENCES Tablica_Klasa(Klasa_Id)
 );
@@ -29,7 +29,7 @@ CREATE TABLE Tablica_Nauczyciel (
     Nauczyciel_Pesel VARCHAR(11) PRIMARY KEY,
     Nauczyciel_Specjalizacja VARCHAR(250),
     Nauczyciel_Data_Zatrudnienia DATETIME,
-    Nauczyciel_Rachunek VARCHAR(26)
+    Nauczyciel_Rachunek VARCHAR(40)
 );
 
 -- Tabela: Przedmiot
@@ -55,7 +55,7 @@ CREATE TABLE Tablica_Lekcja (
     FOREIGN KEY (Lekcja_Przedmiot_Id) REFERENCES Tablica_Przedmiot(Przedmiot_Id)
 );
 
--- Tabela: Poœrednia Klasa-Nauczyciel
+-- Tabela: PoÅ“rednia Klasa-Nauczyciel
 CREATE TABLE Tablica_Posrednia_Klasa_Nauczyciel (
     Posrednia_Klasa_Id INT,
     FOREIGN KEY (Posrednia_Klasa_Id) REFERENCES Tablica_Klasa(Klasa_Id),
